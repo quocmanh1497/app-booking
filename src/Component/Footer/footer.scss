@@ -243,21 +243,22 @@
             .contactDiv{
                 flex-direction: row;
                 justify-content: space-between;
-            }
 
-            .inputDiv{
-                width: max-content;
-                flex-direction: row;
-                justify-content: flex-start;
 
-                input{
-                    width: 60%;
-                }
+                .inputDiv{
+                     width: max-content;
+                     flex-direction: row;
+                     justify-content: flex-start;
 
-                .btn{
-                    width: max-content;
-                }
-            }
+                     input{
+                         width: 60%;
+                     }
+
+                     .btn{
+                         width: max-content;
+                     }
+                 }
+             }
         }
     }
 }
