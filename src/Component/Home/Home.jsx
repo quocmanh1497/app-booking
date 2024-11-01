@@ -23,8 +23,7 @@ const Home = () => {
     return (
         <section className='home'>
             <div className="overlay"></div>
-            <video src={video} muted loop type="video/mp4" autoPlay></video>
-
+            <video src={video} muted autoPlay loop type="video/mp4"></video>
             <div className="homeContent container">
                 <div className="textDiv">
 

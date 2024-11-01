@@ -19,7 +19,9 @@ const Footer = () => {
     return (
         <section className='footer'>
             <div className="videoDiv">
-                <video src={video2} muted autoPlay loop type="video/mp4"></video>
+                <video muted autoPlay loop >
+                    <source src={video2} type="video/mp4" />
+                </video>
             </div>
 
             <div className="secContent container flex">
@@ -131,7 +133,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 
